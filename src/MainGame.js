@@ -198,6 +198,12 @@ export default class MainGame extends Phaser.Scene {
         fadeOuts[14],
         fadeIns[15],
       ], [ // 15
+        fadeIns[12],
+      ], [
+        fadeOuts[12],
+        fadeIns[13],
+      ], [
+        fadeOuts[13],
         fadeIns[16],
       ], [
         fadeOuts[16],
@@ -346,7 +352,7 @@ export default class MainGame extends Phaser.Scene {
         ? 11
         : ending === Ending.MID
           ? 15
-          : 20;
+          : 22;
     if (ending === Ending.WRONG) {
       if (message === '紅包拿來') {
         this.texts.wrong1.setText('都幾歲的人了');

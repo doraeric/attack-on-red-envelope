@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack/prod.js ",
-    "start": "webpack-cli serve --config webpack/base.js --mode development --open"
+    "start": "webpack serve --config webpack/base.js --mode development --open"
   },
   "author": "doraeric",
   "license": "MIT",
